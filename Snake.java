@@ -87,7 +87,7 @@ public class Snake extends Actor
         }
     }
     
-    public static void moveSnake(){
+    public final void moveSnake(){
         
         delayCounter--;
         

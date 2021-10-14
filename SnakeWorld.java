@@ -1,6 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class SnakeWorld extends World extends GameOverObserver, HudHandler
+public class SnakeWorld extends World implements GameOverObserver, HudHandler
 {
     private boolean gameFinished = false;
     private final SnakeSectionsManager snakeSectionsManager;
@@ -42,13 +42,13 @@ public class SnakeWorld extends World extends GameOverObserver, HudHandler
         
         itemsManager.addObject();
         
-        BombManager.addObject();
+        bombManager.addObject();
 
     }
 
     public void onGameOver(){
         gameFinished = true;
-        This.showText("Game Over", getWidth() / 2, getHeight() / 2 - 30);
+        this.showText("Game Over", getWidth() / 2, getHeight() / 2 - 30);
     }
     
     public void showScore(int score){

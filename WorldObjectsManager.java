@@ -1,11 +1,11 @@
 import greenfoot.*;
 
-public abstract class WorldObjectsManager implements ItemObserver
+public class WorldObjectsManager implements ItemObserver
 {
     private final int initialDelay;
     private int delayNewObject;
     private boolean enableNewItemCounter;
-    
+    private Actor actor;
     private World world;
     private int worldHeight;
     
@@ -35,9 +35,11 @@ public abstract class WorldObjectsManager implements ItemObserver
         }    
     }
     
-    public abstract void itemEaten(){
+    public void itemEaten(){
         enableNewItemCounter = true;
     }
     
-    public  Actor getNewWorldObject();
+    public Actor getNewWorldObject(){
+        return new SnakeSection(this);
+    }
 }

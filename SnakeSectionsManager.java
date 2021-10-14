@@ -9,6 +9,6 @@ public class SnakeSectionsManager extends WorldObjectsManager
     }
        
     public Actor getNewWorldObject(){
-        return SnakeSection(this);
+        return new SnakeSection(this);
     }
 }
