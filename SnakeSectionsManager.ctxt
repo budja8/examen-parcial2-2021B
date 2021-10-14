@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SnakeSectionsManager
+comment1.params=world
+comment1.target=SnakeSectionsManager(greenfoot.World)
+comment2.params=
+comment2.target=greenfoot.Actor\ getNewWorldObject()
+numComments=3

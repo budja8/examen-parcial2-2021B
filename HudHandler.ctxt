@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=HudHandler
+comment1.params=score
+comment1.target=void\ showScore(int)
+numComments=2

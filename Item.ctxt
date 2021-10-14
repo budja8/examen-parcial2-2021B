@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=points\ observer\ delayToShow
+comment1.target=Item(int,\ ItemObserver,\ int)
+comment2.params=
+comment2.target=int\ eaten()
+comment3.params=
+comment3.target=void\ act()
+numComments=4

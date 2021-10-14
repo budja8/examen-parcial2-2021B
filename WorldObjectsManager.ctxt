@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=WorldObjectsManager
+comment1.params=world\ initialDelay
+comment1.target=WorldObjectsManager(greenfoot.World,\ int)
+comment2.params=
+comment2.target=void\ addObject()
+comment3.params=
+comment3.target=void\ itemEaten()
+comment4.params=
+comment4.target=greenfoot.Actor\ getNewWorldObject()
+numComments=5
